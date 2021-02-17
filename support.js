@@ -191,6 +191,7 @@ Cypress.Commands.add('api', (options, name = 'api') => {
 
       return {
         messages,
+        options,
         // original response information
         duration,
         body,
